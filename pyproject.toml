@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "authenticator"
+version = "0.1.0"
+description = ""
+authors = ["Veera <vignesh199922@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.0"
+sqlalchemy = "^2.0.31"
+uvicorn = "^0.30.5"
+beanie = "^1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
